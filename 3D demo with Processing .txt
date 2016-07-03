@@ -1,0 +1,40 @@
+1.
+下載&安裝Processing IDE
+
+2.
+下載Toxi library --> toxiclibs-complete-0020.zip
+https://bitbucket.org/postspectacular/toxiclibs/downloads/
+解壓縮會得到toxiclibs-complete-0020目錄，複製到C:\Users\xxx\Documents\Processing\Libraries
+
+3.
+複製C:\Users\xxx\Documents\Arduino\libraries\MPU6050\examples\MPU6050_DMP6\Processing下的MPUTeapot目錄
+到C:\Users\xxx\Documents\Processing
+
+4.
+用Arduino IDE開啟MPU6050_DMP6 (檔案->範例->MPU6050->MPU6050_DMP6)
+修改如下:(一行註解掉，另一行打開註解)
+================================================
+#define OUTPUT_READABLE_YAWPITCHROLL --> //#define OUTPUT_READABLE_YAWPITCHROLL
+//#define OUTPUT_TEAPOT --> #define OUTPUT_TEAPOT
+================================================
+
+5.
+再用Processing IDE 開啟MPUTeapot.pde，修改如下
+================================================
+String portName = "/dev/ttyUSB1";  -->  //String portName = "/dev/ttyUSB1"; 
+(我的這行跟它不一樣 應該是留底下那行有COM的就好)
+
+//String portName = "COM4";  -->   String portName = "COM4"; 
+(改成跟Arduino一樣的port 我的是COM3) 
+================================================
+
+6.
+(1) 在Arduino IDE那邊把MPU6050_DMP6驗證後上傳
+(2) 等(1)上傳完畢後，在Processing執行MPUTeapot.pde
+** 不要開Arduino IDE的console, 會和processing衝突 **
+(3) 3D小飛機約10秒後會跑出圖形 跟著gy521 sensor翻轉 (角速度)
+
+
+參考: 
+1. http://dory168.blogspot.tw/p/gy-521sensormpu-6050dmp-ic.html
+2. http://ark-lab.blogspot.tw/2015/07/mpu6050arduinoprocessing.html
