@@ -1,40 +1,39 @@
 1.
-¤U¸ü&¦w¸ËProcessing IDE
+ä¸‹è¼‰&å®‰è£Processing IDE
 
 2.
-¤U¸üToxi library --> toxiclibs-complete-0020.zip
+ä¸‹è¼‰Toxi library --> toxiclibs-complete-0020.zip
 https://bitbucket.org/postspectacular/toxiclibs/downloads/
-¸ÑÀ£ÁY·|±o¨ìtoxiclibs-complete-0020¥Ø¿ı¡A½Æ»s¨ìC:\Users\xxx\Documents\Processing\Libraries
+è§£å£“ç¸®æœƒå¾—åˆ°toxiclibs-complete-0020ç›®éŒ„ï¼Œè¤‡è£½åˆ°C:\Users\xxx\Documents\Processing\Libraries
 
 3.
-½Æ»sC:\Users\xxx\Documents\Arduino\libraries\MPU6050\examples\MPU6050_DMP6\Processing¤UªºMPUTeapot¥Ø¿ı
-¨ìC:\Users\xxx\Documents\Processing
+è¤‡è£½C:\Users\xxx\Documents\Arduino\libraries\MPU6050\examples\MPU6050_DMP6\Processingä¸‹çš„MPUTeapotç›®éŒ„
+åˆ°C:\Users\xxx\Documents\Processing
 
 4.
-¥ÎArduino IDE¶}±ÒMPU6050_DMP6 (ÀÉ®×->½d¨Ò->MPU6050->MPU6050_DMP6)
-­×§ï¦p¤U:(¤@¦æµù¸Ñ±¼¡A¥t¤@¦æ¥´¶}µù¸Ñ)
+ç”¨Arduino IDEé–‹å•ŸMPU6050_DMP6 (æª”æ¡ˆ->ç¯„ä¾‹->MPU6050->MPU6050_DMP6)
+ä¿®æ”¹å¦‚ä¸‹:(ä¸€è¡Œè¨»è§£æ‰ï¼Œå¦ä¸€è¡Œæ‰“é–‹è¨»è§£)
 ================================================
 #define OUTPUT_READABLE_YAWPITCHROLL --> //#define OUTPUT_READABLE_YAWPITCHROLL
 //#define OUTPUT_TEAPOT --> #define OUTPUT_TEAPOT
 ================================================
 
 5.
-¦A¥ÎProcessing IDE ¶}±ÒMPUTeapot.pde¡A­×§ï¦p¤U
+å†ç”¨Processing IDE é–‹å•ŸMPUTeapot.pdeï¼Œä¿®æ”¹å¦‚ä¸‹
 ================================================
 String portName = "/dev/ttyUSB1";  -->  //String portName = "/dev/ttyUSB1"; 
-(§Úªº³o¦æ¸ò¥¦¤£¤@¼Ë À³¸Ó¬O¯d©³¤U¨º¦æ¦³COMªº´N¦n)
+(æˆ‘çš„é€™è¡Œè·Ÿå®ƒä¸ä¸€æ¨£ æ‡‰è©²æ˜¯ç•™åº•ä¸‹é‚£è¡Œæœ‰COMçš„å°±å¥½)
 
 //String portName = "COM4";  -->   String portName = "COM4"; 
-(§ï¦¨¸òArduino¤@¼Ëªºport §Úªº¬OCOM3) 
+(æ”¹æˆè·ŸArduinoä¸€æ¨£çš„port æˆ‘çš„æ˜¯COM3) 
 ================================================
 
 6.
-(1) ¦bArduino IDE¨ºÃä§âMPU6050_DMP6ÅçÃÒ«á¤W¶Ç
-(2) µ¥(1)¤W¶Ç§¹²¦«á¡A¦bProcessing°õ¦æMPUTeapot.pde
-** ¤£­n¶}Arduino IDEªºconsole, ·|©Mprocessing½Ä¬ğ **
-(3) 3D¤p­¸¾÷¬ù10¬í«á·|¶]¥X¹Ï§Î ¸òµÛgy521 sensorÂ½Âà (¨¤³t«×)
+(1) åœ¨Arduino IDEé‚£é‚ŠæŠŠMPU6050_DMP6é©—è­‰å¾Œä¸Šå‚³
+(2) ç­‰(1)ä¸Šå‚³å®Œç•¢å¾Œï¼Œåœ¨ProcessingåŸ·è¡ŒMPUTeapot.pde
+** ä¸è¦é–‹Arduino IDEçš„console, æœƒå’Œprocessingè¡çª **
+(3) å‡ºç¾3Då°é£›æ©Ÿ æœƒè·Ÿè‘—gy521 sensorçš„å‹•ä½œç¿»è½‰ (è§’é€Ÿåº¦)
 
-
-°Ñ¦Ò: 
+åƒè€ƒ: 
 1. http://dory168.blogspot.tw/p/gy-521sensormpu-6050dmp-ic.html
 2. http://ark-lab.blogspot.tw/2015/07/mpu6050arduinoprocessing.html
