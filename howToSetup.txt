@@ -1,8 +1,10 @@
-1. install Arduino driver and IDE (CD in the box)
+1. install Arduino driver and IDE (CD in the box or https://drive.google.com/open?id=0B1dwWp_-6_Mra250VGMwcjVDNmc)
 
-1. download the I2Cdevlib.zip at https://github.com/jrowberg/i2cdevlib
+2. download the I2Cdevlib.zip at https://github.com/jrowberg/i2cdevlib
 -> find I2Cdev and MPU6050 at i2cdevlib-master/Arduino/
 -> copy I2Cdev and MPU6050 to User/Documents/Arduino/libraries
 
-2. Arduino with GY-521/MPU6050 example:
+3. Arduino with GY-521/MPU6050 example:
 http://dory168.blogspot.tw/p/gy-521sensormpu-6050dmp-ic.html
+http://ming-shian.blogspot.tw/2014/05/arduino21mpu6050row-data.html
+http://smlie-blog.blogspot.tw/2013/11/stm32-mpu6050.html
